@@ -1,4 +1,4 @@
-package com.synchro.api;
+package com.synchro.api.models;
 
 import java.io.Serializable;
 
