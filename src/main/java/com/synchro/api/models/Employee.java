@@ -25,11 +25,70 @@ public class Employee implements Serializable{
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	Long id;
 	
-	String role;
-	String cpf;
-	String gender;
 	String name;
+	String lastname;
+	String email;
+	String doc;
+	String cpf;
+	String phone;
+	String role;
+	String salary;
 	String seniority;
+	String gender;
+	String marital;
+	String date_born;
+	String indicated;
+	
+	
+	
+	public String getLastname() {
+		return lastname;
+	}
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getDoc() {
+		return doc;
+	}
+	public void setDoc(String doc) {
+		this.doc = doc;
+	}
+	public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+	public String getSalary() {
+		return salary;
+	}
+	public void setSalary(String salary) {
+		this.salary = salary;
+	}
+	public String getMarital() {
+		return marital;
+	}
+	public void setMarital(String marital) {
+		this.marital = marital;
+	}
+	public String getDate_born() {
+		return date_born;
+	}
+	public void setDate_born(String date_born) {
+		this.date_born = date_born;
+	}
+	public String getIndicated() {
+		return indicated;
+	}
+	public void setIndicated(String indicated) {
+		this.indicated = indicated;
+	}
 	public Long getId() {
 		return id;
 	}
