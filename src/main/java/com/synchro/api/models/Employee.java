@@ -37,6 +37,14 @@ public class Employee implements Serializable{
 	String gender;
 	String marital;
 	String date_born;
+	String age;
+
+	public String getAge() {
+		return age;
+	}
+	public void setAge(String age) {
+		this.age = age;
+	}
 	String indicated;
 	
 	
